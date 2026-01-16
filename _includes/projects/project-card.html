@@ -1,7 +1,7 @@
 <div class="card mb-3">
   <div class="row g-0">
     <div class="col-sm-6 col-md-4">
-      <img src="{{ site.baseurl }}/{{ include.page.image }}" height="225px" class="rounded-start">
+      <img src="{{ include.page.image | relative_url }}" height="225px" class="rounded-start">
     </div>
     <div class="col-sm-6 col-md-8">
       <div class="card-body py-2 px-3" style="padding-left: 0.75rem;">
@@ -34,10 +34,10 @@
           {% endfor %}
         </p>
 
-        {% if page.projecturl %}
-          <a href="{{ page.projecturl }}" class="btn btn-outline-dark">Project Site</a>
+        {% if include.page.projecturl %}
+          <a href="{{ include.page.projecturl }}" class="btn btn-outline-dark">Project Site</a>
         {% else %}
-          <a href="{{ site.baseurl}}{{ include.page.url }}" class="btn btn-outline-dark">Read More</a>
+          <a href="{{ include.page.url | relative_url }}" class="btn btn-outline-dark">Read More</a>
         {% endif %}
       </div>
     </div>

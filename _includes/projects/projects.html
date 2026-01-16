@@ -27,7 +27,7 @@
     {% endfor %}
 
     {% if not_draft > limit %}
-      <p class="text-center pt-4"><a href="{{ site.baseurl}}/projects/">See all {{ not_draft }} projects</a></p>
+      <p class="text-center pt-4"><a href="{{ "/projects/" | relative_url }}">See all {{ not_draft }} projects</a></p>
     {% endif %}
 
   </div>
