@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/cotton/cotton-square.png
 title: "Cotton"
-start_date: 2014
+start_date: "2014-01"
 published: true
 labels:
   - Lisp

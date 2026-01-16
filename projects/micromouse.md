@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/micromouse/micromouse-square.jpg
 title: "Micromouse"
-start_date: 2015
+start_date: "2015-01"
 published: true
 labels:
   - Robotics
