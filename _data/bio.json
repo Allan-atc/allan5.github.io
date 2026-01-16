@@ -1,0 +1,246 @@
+
+{
+  "basics": {
+    "name": "Kilian Pouderoux",
+    "label": "Student",
+    "picture": "../img/foto.jpeg",
+    "email": "kilian.pouderoux@epfl.ch",
+    "phone": "",
+    "website": "",
+    "summary": "Final year Master’s student in Microengineering at EPFL and CentraleSupélec. With expertise in microsystems, nanotechnology, and computational science, I bring strong curiosity, organization, and autonomy to my work. I am eager to contribute to high-tech, fast-moving projects and am seeking a 6-month internship starting in February 2026.",
+    "location": { "address": "", "postalCode": "", "city": "Lausanne", "countryCode": "CH", "region": "" },
+    "profiles": [
+      { "network": "github", "username": "kilianpdrx", "url": "https://github.com/kilianpdrx" },
+      { "network": "linkedin", "username": "Kilian Pouderoux", "url": "https://www.linkedin.com/in/kilian-pouderoux-502184248/" }
+    ]
+  },
+  "interests": [
+    { "name": "Optics" },
+    { "name": "Computational science" },
+    { "name": "Semi conductors" },
+    { "name": "Nanotechnologies" },
+    { "name": "Artificial Intelligence" },
+    { "name": "Quantum Computing" },
+    { "name": "Robotics" },
+    { "name": "Machine Learning" },
+    { "name": "Astronomy" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Python (Numpy, Pandas, Scikit, Pytorch, OpenCV)", "Bash", "CUDA", "MPI", "Bash", "SQL"]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Linux", "Git" ]
+    },
+    {
+      "name": "Hardware",
+      "keywords": [ "Arduino", "Raspberry Pi" ]
+    },
+    {
+      "name": "Software",
+      "keywords": [ "Matlab", "LabView", "Catia", "Microsoft Office", "Docker"]
+    },
+    {
+      "name": "Languages",
+      "keywords": [ "French (native)", "English (C1)", "Italian (A2)" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ecole Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland",
+      "area": "Microengineering, minor in Computational Science and Engineering",
+      "studyType": "Master of Science",
+      "website": "https://www.epfl.ch",
+      "startDate": "2024-09-01",
+      "endDate": "Present",
+      "courses": [
+        "Computational optics",
+        "Advanced MEMS",
+        "Microfabrication",
+        "High Performance Computing",
+        "Machine Learning",
+        "Lasers and photonics",
+        "Mobile robotics",
+        "Quantum simulation of materials",
+        "Structural biology",
+        "Quantum computing",
+        "Stochastic simulation"
+      ]
+    },
+    {
+      "institution": "CentraleSupélec – Université Paris-Saclay, Paris, France",
+      "area": "Engineering, highly selective double degree with EPFL",
+      "studyType": "Diplôme d'ingenieur",
+      "website": "https://www.centralesupelec.fr",
+      "startDate": "2022-09-01",
+      "endDate": "2024-07-01",
+      "courses": [
+        "Mathematics",
+        "Energy",
+        "Quantum physics",
+        "Nuclear engineering",
+        "Cloud Computing",
+        "Signal processing",
+        "Data science",
+        "Finance and Economics"
+      ]
+    },
+    {
+      "institution": "Ecole Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland",
+      "area": "Mechanical Engineering",
+      "studyType": "Bachelor of Science",
+      "website": "https://www.epfl.ch",
+      "startDate": "2019-09-01",
+      "endDate": "2022-07-01",
+      "courses": [
+        "Mathematics",
+        "Physics",
+        "Materials science",
+        "Fluid mechanics",
+        "Programming",
+        "Dynamical systems",
+        "Structural mechanics"  
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Watchmaker (Mission Junior Entreprise EPFL)",
+      "position": "Maintenance Engineer",
+      "website": "",
+      "startDate": "2025-03-01",
+      "endDate": "2025-05-01",
+      "summary": "Diagnosing, maintaining, and optimizing a LabVIEW-based machine in a high-precision manufacturing environment.",
+      "highlights": []
+    },
+    {
+      "company": "Safran Landing Systems (Mission Junior Entreprise CentraleSupélec)",
+      "position": "Data Analyst",
+      "website": "",
+      "startDate": "2024-02-01",
+      "endDate": "2024-05-01",
+      "summary": "",
+      "highlights": [
+        "Analysis of technical documents on more than 60 pieces of equipment",
+        "Retrieving PDM Data"
+      ]
+    },
+    {
+      "company": "Pfeiffer Vacuum",
+      "position": "Operator Intern",
+      "website": "",
+      "startDate": "2023-07-01",
+      "endDate": "2023-08-15",
+      "summary": "Discover the operating environment in a company specializing in vacuum technologies.",
+      "highlights": [
+        "Preparation of orders for the shipping and production departments",
+        "Inventory and handling of delivery errors"
+      ]
+    },
+
+    
+    {
+      "company": "École Polytechnique Fédérale de Lausanne, EPFL",
+      "position": "Teaching Assistant",
+      "website": "",
+      "startDate": "2021-09-01",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Materials : from chemistry to properties",
+        "Programming for engineers",
+        "Mathematics",
+        "Information, computation and communication"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "company": "EPFL Spacecraft Team",
+      "position": "Pole Leader - Ground Segment",
+      "website": "https://www.epflspacecraftteam.ch",
+      "startDate": "2025-08-01",
+      "endDate": "Present",
+      "summary": "Student association focused on the design, development, and launch of innovative satellite and space related projects.",
+      "highlights": [
+        "Lead a team of 8 to develop and operate ground stations for satellite communications.",
+        "Develop and assemble an X-band antenna, the first student-operated system of its kind.",
+        "Design and implement the antenna’s control software."
+      ]
+    },
+    {
+      "company": "EPFL Spacecraft Team",
+      "position": "Systems Engineer",
+      "website": "https://www.epflspacecraftteam.ch",
+      "startDate": "2024-09-01",
+      "endDate": "2025-08-01",
+      "summary": "Student association focused on the design, development, and launch of innovative satellite and space related projects.",
+      "highlights": [
+        "Contribute to a digital twin for satellite modeling, enabling faster design iterations and performance optimization.",
+        "Perform tradeoff analyses on critical satellite parameters, guiding key design decisions and improving mission reliability."
+      ]
+    },
+    {
+      "company": "USC Lausanne",
+      "position": "Vice President - Logistics & Finance",
+      "website": "https://usclausanne.ch",
+      "startDate": "2025-08-01",
+      "endDate": "Present",
+      "summary": "Student surf association at EPFL & UNIL organizing water sports and community events.",
+      "highlights": [
+        "Oversee the association's budget, ensuring financial health and sustainability.",
+        "Members inscription management and event logistics coordination."
+      ]
+    },
+    {
+      "company": "USC Lausanne",
+      "position": "Sponsorship Manager",
+      "website": "https://usclausanne.ch",
+      "startDate": "2024-09-01",
+      "endDate": "2025-08-01",
+      "summary": "Student surf association at EPFL & UNIL organizing water sports and community events.",
+      "highlights": [
+        "Organized surf, pumpfoil, winch surf, and wakesurf sessions for students",
+        "Managed partnerships and sponsorship acquisition for student activities"
+      ]
+    },
+    {
+      "company": "Forum CentraleSupélec",
+      "position": "Event & Quality Manager",
+      "website": "https://www.site.forum-cs.fr",
+      "startDate": "2022-01-01",
+      "endDate": "2024-01-01",
+      "summary": "Student association organizing a major business forum with 200+ companies and a turnover of €1.3 million.",
+      "highlights": [
+        "Manage relations with partner companies and coordinate event logistics for exhibitors and participants.",
+        "Ensure quality management of the event, including preparation of the annual audit and compliance with ISO standards.",
+        "Develop automation algorithms to streamline repetitive tasks, reducing workload and improving team efficiency"
+      ]
+    }
+
+
+
+    
+  ],
+  "awards": [
+    {
+      "title": "B+ Scholarship",
+      "date": "2013-Present",
+      "awarder": "State of Hawaii",
+      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+    },
+    {
+      "title": "First place",
+      "date": "2015",
+      "awarder": "University of Hawaii Micromouse Competition",
+      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
