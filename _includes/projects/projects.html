@@ -8,7 +8,7 @@
 
     <div class="vstack gap-3">
       {% assign project_pages = site.pages | where: "type", "project" | sort: "start_date" %}
-      {% for page in project_pages reversed %}
+      {% for page in project_pages %}
         {% unless page.draft %}
           {% include projects/project-card.html page=page %}
         {% endunless %}
