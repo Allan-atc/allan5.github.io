@@ -97,7 +97,7 @@ This coupled system was validated by reproducing key trends reported in the expe
 </p>
 
 <ul>
-  <li><strong>Geometry correlation:</strong> for fixed mass flow rate, decreasing interelectrode length increases stability</li>
+  <li><strong>Geometry correlation:</strong> for fixed mass flow rate, decreasing interelectrode length increases stability.</li>
 </ul>
 <p align="center">
   <img src="{{ '/img/NASA/Figure_4.5.png' | relative_url }}" alt="Figure 4 — Growth rate vs. interelectrode separation / electrode length" style="max-width: 500px; margin: 1rem auto; display:block;">
