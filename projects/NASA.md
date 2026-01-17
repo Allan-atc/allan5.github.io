@@ -21,7 +21,7 @@ period: NASA Space Technology Graduate Research - Stanford University
 
 <h4>Objective</h4>
 <p>
-High-power electric propulsion, including Nuclear Electric Propulsion (NEP), is a promising technology for future crewed and cargo missions to Mars. For high-power spacecraft, the self-field MPD configuration is especially attractive because it delivers strong performance.
+High-power electric propulsion, including Nuclear Electric Propulsion (NEP), is a promising technology for future crewed and cargo missions to Mars. For high-power spacecraft, the self-field Magnetoplasmadynamic (MPD) configuration is especially attractive because it delivers strong performance.
 </p>
 
 <p>
@@ -79,20 +79,21 @@ This coupled system was validated by reproducing key trends reported in the expe
 <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:flex-start;">
   <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
     <img src="{{ '/img/NASA/Figure%204.1.png' | relative_url }}" alt="Figure 1 — Growth rate vs. wavenumber at J = 2.0 × 10^6 A/m^2" style="width:100%; height:auto; margin: 1rem auto; display:block;">
-    <span style="font-size: 0.9rem; color: gray;">Figure 1 — Growth rate vs. wavenumber at J = 2.0 × 10^6 A/m<sup>2</sup></span>
   </div>
   <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
     <img src="{{ '/img/NASA/Figure_4.2.png' | relative_url }}" alt="Figure 1 — Growth rate vs. wavenumber at J = 2.0 × 10^6 A/m^2" style="width:100%; height:auto; margin: 1rem auto; display:block;">
-    <span style="font-size: 0.9rem; color: gray;">Figure 1 — Growth rate vs. wavenumber at J = 2.0 × 10^6 A/m<sup>2</sup></span>
   </div>
 </div>
+<p align="center" style="margin-top: 0.25rem;">
+  <span style="font-size: 0.9rem; color: gray;">Figure 1 — Growth rate vs. wavenumber at J = 2.0 × 10^6 A/m<sup>2</sup></span>
+</p>
 
 <ul>
   <li><strong>Current density sensitivity:</strong> increasing discharge current density increases instability growth rate and narrows the stable operating window.</li>
 </ul>
 <p align="center">
   <img src="{{ '/img/NASA/Figure_4.3.png' | relative_url }}" alt="Figure 3 — Growth rate vs. wavenumber at J = 5.0 × 10^6 A/m^2" style="max-width: 500px; margin: 1rem auto; display:block;">
-  <span style="font-size: 0.9rem; color: gray;">Figure 3 — Growth rate vs. wavenumber at J = 5.0 × 10^6 A/m<sup>2</sup></span>
+  <span style="font-size: 0.9rem; color: gray;">Figure 2 — Growth rate vs. wavenumber at J = 5.0 × 10^6 A/m<sup>2</sup></span>
 </p>
 
 <ul>
@@ -100,7 +101,7 @@ This coupled system was validated by reproducing key trends reported in the expe
 </ul>
 <p align="center">
   <img src="{{ '/img/NASA/Figure_4.5.png' | relative_url }}" alt="Figure 4 — Growth rate vs. interelectrode separation / electrode length" style="max-width: 500px; margin: 1rem auto; display:block;">
-  <span style="font-size: 0.9rem; color: gray;">Figure 4 — Growth rate vs. interelectrode separation / electrode length</span>
+  <span style="font-size: 0.9rem; color: gray;">Figure 3 — Growth rate vs. interelectrode separation / electrode length</span>
 </p>
 
 <ul>
@@ -108,7 +109,7 @@ This coupled system was validated by reproducing key trends reported in the expe
 </ul>
 <p align="center">
   <img src="{{ '/img/NASA/Figure_4.11%20alpha%20crit.png' | relative_url }}" alt="Figure 5 — Growth rate vs. ionization fraction α" style="max-width: 500px; margin: 1rem auto; display:block;">
-  <span style="font-size: 0.9rem; color: gray;">Figure 5 — Growth rate vs. ionization fraction α</span>
+  <span style="font-size: 0.9rem; color: gray;">Figure 4 — Growth rate vs. ionization fraction α</span>
 </p>
 
 
