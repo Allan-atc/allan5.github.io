@@ -2,13 +2,13 @@
 layout: project
 type: project
 image: img/ESUS/STM_hero.png
-title: "ESUS 3U CubeSat — Flight CAD & Structural & Thermal Model (STM)"
-permalink: /projects/esus-stm/
+title: "3U CubeSat: ESUS"
+permalink: /projects/CS3/
 start_date: January 2023
 end_date: July 2024
 published: true
 summary: "Built the flight-representative mechanical CAD of a 3U CubeSat and derived the first Structural & Thermal Model (STM) to validate Phase B through deployer compatibility and mass-property verification."
-period: CentraleSupélec CubeSat Program — CNES & Thales Alenia Space Sponsored
+period: CentraleSupelec Space Center for CubeSats
 ---
 
 <div class="container py-3">
