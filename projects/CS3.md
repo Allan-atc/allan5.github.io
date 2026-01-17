@@ -8,7 +8,7 @@ start_date: January 2023
 end_date: July 2024
 published: true
 summary: "Built the flight-representative mechanical CAD of a 3U CubeSat and derived the first Structural & Thermal Model (STM) to validate Phase B through deployer compatibility and mass-property verification."
-period: CentraleSupelec Space Center for CubeSats
+period: CentraleSupélec Space Center for CubeSats
 ---
 
 <div class="container py-3">
@@ -19,11 +19,17 @@ period: CentraleSupelec Space Center for CubeSats
 <strong>Role:</strong> Structure & Thermal team (2 people) — I led structural work; teammate led thermal (tight coordination)
 </p>
 
-<!-- Photo suggestion (top hero): assembled STM OR full flight CAD render -->
-<p align="center">
-  <img src="{{ '/img/ESUS/STM_hero.png' | relative_url }}" alt="ESUS — Structural & Thermal Model (STM) overview" style="max-width: 900px; margin: 1rem auto; display:block;">
-  <span style="font-size: 0.9rem; color: gray; display: block; text-align: center;">Figure 1 — ESUS 3U STM (assembled) or full flight CAD overview.</span>
-</p>
+<!-- STM hero (open + closed) -->
+<div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:flex-start;">
+  <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
+    <img src="{{ '/img/ESUS/ESUS_STM1.jpg' | relative_url }}" alt="ESUS STM — open configuration" style="width:100%; height:auto; margin: 1rem auto; display:block;">
+    <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 1a — ESUS STM (open configuration).</span>
+  </div>
+  <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
+    <img src="{{ '/img/ESUS/ESUS_STM2.png' | relative_url }}" alt="ESUS STM — closed configuration" style="width:100%; height:auto; margin: 1rem auto; display:block;">
+    <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 1b — ESUS STM (closed configuration).</span>
+  </div>
+</div>
 
 <hr>
 
@@ -69,15 +75,15 @@ I first created a full flight-representative CAD baseline of ESUS using real sub
   <li>prepare the build of the flight model.</li>
 </ul>
 
-<!-- Photo suggestion: show flight CAD first (as requested), then deployer interface view -->
+<!-- Flight CAD visuals -->
 <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:flex-start;">
   <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
-    <img src="{{ '/img/ESUS/FlightCAD_overall.png' | relative_url }}" alt="Flight CAD — full assembly" style="width:100%; height:auto; margin: 1rem auto; display:block;">
-    <span style="font-size: 0.9rem; color: gray; display: block; text-align: center;">Figure 2 — Flight CAD: full mechanical assembly (overview).</span>
+    <img src="{{ '/img/ESUS/CAD_STM%20COMPLET%20OUVERT.jpg' | relative_url }}" alt="Flight CAD — full mechanical assembly" style="width:100%; height:auto; margin: 1rem auto; display:block;">
+    <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 2 — Flight CAD: full mechanical assembly (open view).</span>
   </div>
   <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
-    <img src="{{ '/img/ESUS/FlightCAD_isipod_interface.png' | relative_url }}" alt="Flight CAD — iSiPod interface and keep-outs" style="width:100%; height:auto; margin: 1rem auto; display:block;">
-    <span style="font-size: 0.9rem; color: gray; display: block; text-align: center;">Figure 3 — Flight CAD: iSiPod/P-POD interface, rails, and keep-out clearances.</span>
+    <img src="{{ '/img/ESUS/CAD_ferme%20panneau%20solaire.jpg' | relative_url }}" alt="Flight CAD — external panels and solar panel layout" style="width:100%; height:auto; margin: 1rem auto; display:block;">
+    <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 3 — Flight CAD: external panels and solar panel layout (interface-driven geometry).</span>
   </div>
 </div>
 
@@ -109,15 +115,15 @@ To make the STM representative, dummy masses were sized using datasheet componen
   <li>3D printing (filament and resin) for smaller parts.</li>
 </ul>
 
-<!-- Photo suggestion: (1) one SolidWorks "mass dummy vs real component" comparison, (2) one fabrication/process photo -->
+<!-- Mass dummy + rack CAD -->
 <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:flex-start;">
   <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
-    <img src="{{ '/img/ESUS/MassDummy_vs_Component.png' | relative_url }}" alt="Mass dummy design compared to reference component" style="width:100%; height:auto; margin: 1rem auto; display:block;">
-    <span style="font-size: 0.9rem; color: gray; display: block; text-align: center;">Figure 4 — Example mass dummy geometry tuned to match mass and inertia-relevant layout.</span>
+    <img src="{{ '/img/ESUS/Ninao%20de%20CNES%20(forme%20papillions).png' | relative_url }}" alt="Example mass dummy tuned for inertia: butterfly-shaped geometry" style="width:100%; height:auto; margin: 1rem auto; display:block;">
+    <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 4 — Example mass dummy (butterfly geometry) tuned to better match inertia behavior.</span>
   </div>
   <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
-    <img src="{{ '/img/ESUS/FabLab_process.png' | relative_url }}" alt="Fabrication process in the CentraleSupélec lab" style="width:100%; height:auto; margin: 1rem auto; display:block;">
-    <span style="font-size: 0.9rem; color: gray; display: block; text-align: center;">Figure 5 — Fabrication of aluminum/steel dummies (waterjet/laser/3D printing as applicable).</span>
+    <img src="{{ '/img/ESUS/CAD_Rack_carte.png' | relative_url }}" alt="CAD — card rack stack-up with PC104 spacing logic" style="width:100%; height:auto; margin: 1rem auto; display:block;">
+    <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 5 — CAD: avionics/card rack stack-up (PC104 spacing + threaded-rod architecture).</span>
   </div>
 </div>
 
@@ -134,15 +140,15 @@ To make the STM representative, dummy masses were sized using datasheet componen
   <li>S-band antennas represented by steel masses mounted on external aluminum panels.</li>
 </ul>
 
-<!-- Photo suggestion: one assembled STM shot + one close-up of the card rack / PC104 stack-up -->
+<!-- STM internal views -->
 <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:flex-start;">
   <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
-    <img src="{{ '/img/ESUS/STM_assembled.png' | relative_url }}" alt="STM assembled" style="width:100%; height:auto; margin: 1rem auto; display:block;">
-    <span style="font-size: 0.9rem; color: gray; display: block; text-align: center;">Figure 6 — STM assembled (flight-like geometry and external interfaces).</span>
+    <img src="{{ '/img/ESUS/STM%20ouvert%20complet.png' | relative_url }}" alt="STM open — internal stack and structure" style="width:100%; height:auto; margin: 1rem auto; display:block;">
+    <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 6 — STM open: internal stack, mass dummies, and flight-like integration.</span>
   </div>
   <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
-    <img src="{{ '/img/ESUS/CardRack_closeup.png' | relative_url }}" alt="Card rack close-up showing PC104 spacing and threaded rods" style="width:100%; height:auto; margin: 1rem auto; display:block;">
-    <span style="font-size: 0.9rem; color: gray; display: block; text-align: center;">Figure 7 — Avionics stack: PC104 spacing logic, threaded rods, and mass dummy placement.</span>
+    <img src="{{ '/img/ESUS/RAck%20Carte%20profil%20.png' | relative_url }}" alt="STM rack — profile view showing stack-up" style="width:100%; height:auto; margin: 1rem auto; display:block;">
+    <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 7 — Rack profile view: card spacing, interfaces, and stack-up coherence.</span>
   </div>
 </div>
 
@@ -165,17 +171,5 @@ According to iSiPod specifications, the center of gravity must lie within a 20 �
 <p>
 With this STM now representative of the flight configuration, we can proceed with mechanical testing and use the results to support Phase B validation, provided test outcomes meet expectations.
 </p>
-
-<!-- Photo suggestion: (1) CG measurement setup or test photo, (2) a simple diagram showing the allowed CG box vs measured point -->
-<div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:flex-start;">
-  <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
-    <img src="{{ '/img/ESUS/CG_measurement_setup.png' | relative_url }}" alt="Center of gravity measurement setup" style="width:100%; height:auto; margin: 1rem auto; display:block;">
-    <span style="font-size: 0.9rem; color: gray; display: block; text-align: center;">Figure 8 — Experimental mass / center-of-gravity measurement on the STM.</span>
-  </div>
-  <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
-    <img src="{{ '/img/ESUS/CG_box_compliance.png' | relative_url }}" alt="CG compliance diagram" style="width:100%; height:auto; margin: 1rem auto; display:block;">
-    <span style="font-size: 0.9rem; color: gray; display: block; text-align: center;">Figure 9 — iSiPod CG requirement box (20 × 20 × 60 mm) vs measured CG offset.</span>
-  </div>
-</div>
 
 </div>
