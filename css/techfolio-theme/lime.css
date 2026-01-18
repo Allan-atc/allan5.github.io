@@ -73,3 +73,13 @@ h1,
 .display-6 {
   text-align: center;
 }
+
+.tf-project-card-media {
+  display: flex;
+}
+
+.tf-project-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
