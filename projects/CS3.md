@@ -36,6 +36,12 @@ period: CentraleSupélec Space Center for CubeSats
     text-align:center;
     line-height:1.2;
   }
+  .gc-part2 .gc-frame{
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+  }
 
   /* Controlled sizes */
   .gc-h-sm{ height:220px; }
@@ -247,6 +253,7 @@ With this STM now representative of the flight configuration, we can proceed wit
 </div>
 
 <h3>Project Part 2 — ESUS 3U CubeSat</h3>
+<div class="gc-part2">
 <h4>STM Mechanical Qualification Campaign and Vibration Test Results</h4>
 
 <h4>Objective</h4>
@@ -442,4 +449,4 @@ I presented these results to CNES and Thales Alenia Space, and the Phase B revie
   <figcaption class="gc-caption">Figure 10 - ESUS team in Toulouse, France, after Phase B validation</figcaption>
 </figure>
 
-
+</div>
