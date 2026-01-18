@@ -204,7 +204,7 @@ To make the STM representative, dummy masses were sized using datasheet componen
   <div class="col-md-6">
     <figure class="gc-figure">
       <div class="gc-frame gc-h-md d-flex align-items-center">
-        <img src="{{ '/img/CS3/STM%20ouvert%20complet.png' | relative_url }}"
+        <img src="{{ '/img/CS3/figure6.png' | relative_url }}"
              alt="STM open — internal stack and structure"
              class="gc-media" loading="lazy" decoding="async">
       </div>
