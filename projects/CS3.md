@@ -63,7 +63,7 @@ period: CentraleSupélec Space Center for CubeSats
   <div class="col-md-6">
     <figure class="gc-figure">
       <div class="gc-frame gc-h-md d-flex align-items-center">
-        <img src="{{ '/img/CS3/ESUS1.png' | relative_url }}" alt="ESUS STM — open configuration"
+        <img src="{{ '/img/CS3/ESUS_STM1.png' | relative_url }}" alt="ESUS STM — open configuration"
              class="gc-media" loading="lazy" decoding="async">
       </div>
       <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 1 — ESUS STM (open configuration).</figcaption>
