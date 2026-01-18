@@ -76,16 +76,31 @@ h1,
   text-align: center;
 }
 
+.tf-project-card-grid {
+  display: grid;
+  grid-template-columns: minmax(180px, 1fr) 2fr;
+  align-items: stretch;
+}
+
 .tf-project-card-media {
   position: relative;
   overflow: hidden;
 }
 
 .tf-project-card-img {
-  position: absolute;
-  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .tf-project-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tf-project-card-media {
+    height: 220px;
+  }
 }
 
