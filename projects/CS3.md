@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/CS3/ESUS_STM1.jpg
+image: img/CS3/ESUS1.png
 title: "3U CubeSat: ESUS"
 permalink: /projects/CS3/
 start_date: January 2023
@@ -20,13 +20,13 @@ period: CentraleSupélec Space Center for CubeSats
 </p>
 
 <!-- STM hero (open + closed) -->
-<div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:flex-start;">
-  <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
-    <img src="{{ '/img/CS3/ESUS_STM1.jpg' | relative_url }}" alt="ESUS STM — open configuration" style="width:100%; height:auto; margin: 1rem auto; display:block;">
+<div class="row g-3 justify-content-center">
+  <div class="col-md-6 text-center">
+    <img src="{{ '/img/CS3/ESUS_STM1.jpg' | relative_url }}" alt="ESUS STM — open configuration" class="img-fluid" style="max-width: 360px; margin: 0.5rem auto; display:block;">
     <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 1 — ESUS STM (open configuration).</span>
   </div>
-  <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
-    <img src="{{ '/img/CS3/ESUS_STM2.png' | relative_url }}" alt="ESUS STM — closed configuration" style="width:100%; height:auto; margin: 1rem auto; display:block;">
+  <div class="col-md-6 text-center">
+    <img src="{{ '/img/CS3/ESUS_STM2.png' | relative_url }}" alt="ESUS STM — closed configuration" class="img-fluid" style="max-width: 360px; margin: 0.5rem auto; display:block;">
     <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 2 — ESUS STM (closed configuration).</span>
   </div>
 </div>
@@ -76,13 +76,13 @@ I first created a full flight-representative CAD baseline of ESUS using real sub
 </ul>
 
 <!-- Flight CAD visuals -->
-<div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:flex-start;">
-  <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
-    <img src="{{ '/img/CS3/CAD_STM%20COMPLET%20OUVERT.jpg' | relative_url }}" alt="Flight CAD — full mechanical assembly" style="width:100%; height:auto; margin: 1rem auto; display:block;">
+<div class="row g-3 justify-content-center">
+  <div class="col-md-6 text-center">
+    <img src="{{ '/img/CS3/CAD_STM%20COMPLET%20OUVERT.jpg' | relative_url }}" alt="Flight CAD — full mechanical assembly" class="img-fluid" style="max-width: 360px; margin: 0.5rem auto; display:block;">
     <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 3 — Flight CAD: full mechanical assembly (open view).</span>
   </div>
-  <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
-    <img src="{{ '/img/CS3/CAD_ferme%20panneau%20solaire.jpg' | relative_url }}" alt="Flight CAD — external panels and solar panel layout" style="width:100%; height:auto; margin: 1rem auto; display:block;">
+  <div class="col-md-6 text-center">
+    <img src="{{ '/img/CS3/CAD_ferme%20panneau%20solaire.jpg' | relative_url }}" alt="Flight CAD — external panels and solar panel layout" class="img-fluid" style="max-width: 360px; margin: 0.5rem auto; display:block;">
     <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 4 — Flight CAD: external panels and solar panel layout (interface-driven geometry).</span>
   </div>
 </div>
@@ -109,48 +109,51 @@ I used mass dummies as an engineering solution. Even without final hardware, thi
 To make the STM representative, dummy masses were sized using datasheet component masses. Their placement followed the real component layout on PCBs, and shapes were sometimes tuned (plates, blocks, butterfly geometries) to better reproduce inertia behavior rather than only matching total mass. This required that I manufactured aluminum or steel parts depending on the required density, using CentraleSupelec’s fabrication laboratory, including:
 </p>
 
-<ul>
-  <li>waterjet cutting,</li>
-  <li>laser cutting (CO<sub>2</sub> and fiber),</li>
-  <li>3D printing (filament and resin) for smaller parts.</li>
-</ul>
-
-<!-- Mass dummy + rack CAD -->
-<div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:flex-start;">
-  <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
-    <img src="{{ '/img/CS3/Ninao%20de%20CNES%20(forme%20papillions).png' | relative_url }}" alt="Example mass dummy tuned for inertia: butterfly-shaped geometry" style="width:100%; height:auto; margin: 1rem auto; display:block;">
+<div class="row g-3 align-items-start">
+  <div class="col-md-7">
+    <ul>
+      <li>waterjet cutting,</li>
+      <li>laser cutting (CO<sub>2</sub> and fiber),</li>
+      <li>3D printing (filament and resin) for smaller parts.</li>
+    </ul>
+  </div>
+  <div class="col-md-5 text-center">
+    <img src="{{ '/img/CS3/Ninao%20de%20CNES%20(forme%20papillions).png' | relative_url }}" alt="Example mass dummy tuned for inertia: butterfly-shaped geometry" class="img-fluid" style="max-width: 320px; margin: 0.5rem auto; display:block;">
     <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 5 — Example mass dummy (butterfly geometry) tuned to better match inertia behavior.</span>
   </div>
-  <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
-    <img src="{{ '/img/CS3/CAD_Rack_carte.png' | relative_url }}" alt="CAD — card rack stack-up with PC104 spacing logic" style="width:100%; height:auto; margin: 1rem auto; display:block;">
-    <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 6 — CAD: avionics/card rack stack-up (PC104 spacing + threaded-rod architecture).</span>
-  </div>
 </div>
+
+<p align="center">
+  <img src="{{ '/img/CS3/CAD_Rack_carte.png' | relative_url }}" alt="CAD — card rack stack-up with PC104 spacing logic" class="img-fluid" style="max-width: 520px; margin: 0.75rem auto; display:block;">
+  <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 6 — CAD: avionics/card rack stack-up (PC104 spacing + threaded-rod architecture).</span>
+</p>
 
 <hr>
 
 <h4>3) STM definition, build, and integration</h4>
 <p>The STM reproduces the CubeSat partitioning of the flight design:</p>
 
-<ul>
-  <li>a primary structure (4 aluminum rails and 4 aluminum frames),</li>
-  <li>a card rack represented by steel/aluminum mass dummies mounted on PCB cards (stacked using M3 threaded rods with PC104 spacing logic),</li>
-  <li>payload representation using aluminum/steel masses,</li>
-  <li>PCB solar panels mounted on the lateral faces,</li>
-  <li>S-band antennas represented by steel masses mounted on external aluminum panels.</li>
-</ul>
-
 <!-- STM internal views -->
-<div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:flex-start;">
-  <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
-    <img src="{{ '/img/CS3/STM%20ouvert%20complet.png' | relative_url }}" alt="STM open — internal stack and structure" style="width:100%; height:auto; margin: 1rem auto; display:block;">
+<div class="row g-3 align-items-start">
+  <div class="col-md-7">
+    <ul>
+      <li>a primary structure (4 aluminum rails and 4 aluminum frames),</li>
+      <li>a card rack represented by steel/aluminum mass dummies mounted on PCB cards (stacked using M3 threaded rods with PC104 spacing logic),</li>
+      <li>payload representation using aluminum/steel masses,</li>
+      <li>PCB solar panels mounted on the lateral faces,</li>
+      <li>S-band antennas represented by steel masses mounted on external aluminum panels.</li>
+    </ul>
+  </div>
+  <div class="col-md-5 text-center">
+    <img src="{{ '/img/CS3/STM%20ouvert%20complet.png' | relative_url }}" alt="STM open — internal stack and structure" class="img-fluid" style="max-width: 320px; margin: 0.5rem auto; display:block;">
     <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 7 — STM open: internal stack, mass dummies, and flight-like integration.</span>
   </div>
-  <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
-    <img src="{{ '/img/CS3/RAck%20Carte%20profil%20.png' | relative_url }}" alt="STM rack — profile view showing stack-up" style="width:100%; height:auto; margin: 1rem auto; display:block;">
-    <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 8 — Rack profile view: card spacing, interfaces, and stack-up coherence.</span>
-  </div>
 </div>
+
+<p align="center">
+  <img src="{{ '/img/CS3/RAck%20Carte%20profil%20.png' | relative_url }}" alt="STM rack — profile view showing stack-up" class="img-fluid" style="max-width: 520px; margin: 0.75rem auto; display:block;">
+  <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 8 — Rack profile view: card spacing, interfaces, and stack-up coherence.</span>
+</p>
 
 <hr>
 
