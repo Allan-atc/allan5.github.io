@@ -2,6 +2,7 @@
 layout: project
 type: project
 image: img/CS3/ESUS1.png
+image_fit: contain
 title: "3U CubeSat: ESUS"
 permalink: /projects/CS3/
 start_date: January 2023
@@ -447,4 +448,4 @@ I presented these results to CNES and Thales Alenia Space in Toulouse, and the P
   <figcaption class="gc-caption">Recommended photo — ESUS team (with me)</figcaption>
 </figure>
 
-</div>
+
