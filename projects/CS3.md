@@ -568,16 +568,6 @@ This is consistent with the STM having no structural natural frequency within 5â
   <div class="col-md-6">
     <figure class="gc-figure">
       <div class="gc-frame gc-h-md d-flex align-items-center">
-        <img src="{{ '/img/CS3/part2/Figure4_Sine_Pilot_X.png' | relative_url }}"
-             alt="Pilot data: measured sinusoidal test profile (X-axis)"
-             class="gc-media" loading="lazy" decoding="async">
-      </div>
-      <figcaption class="gc-caption">Figure 4 â€” Pilot data: measured sinusoidal test profile (X-axis)</figcaption>
-    </figure>
-  </div>
-  <div class="col-md-6">
-    <figure class="gc-figure">
-      <div class="gc-frame gc-h-md d-flex align-items-center">
         <img src="{{ '/img/CS3/part2/Figure7_Sine_Response_X.png' | relative_url }}"
              alt="Structure accelerometer response during sinusoidal vibration (X-axis)"
              class="gc-media" loading="lazy" decoding="async">
