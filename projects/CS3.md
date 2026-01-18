@@ -42,6 +42,27 @@ period: CentraleSupélec Space Center for CubeSats
     box-shadow: none;
     padding: 0;
   }
+  .gc-toggle{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:0.75rem;
+    font-weight:700;
+    font-size:1.15rem;
+    background:#f8f9fa;
+    border:1px solid rgba(0,0,0,.08);
+    border-radius:12px;
+    padding:.5rem .75rem;
+    cursor:pointer;
+    margin-bottom:1rem;
+  }
+  .gc-toggle-arrow{
+    display:inline-block;
+    transition:transform .15s ease;
+  }
+  details[open] .gc-toggle-arrow{
+    transform:rotate(90deg);
+  }
 
   /* Controlled sizes */
   .gc-h-sm{ height:220px; }
@@ -106,8 +127,8 @@ Along with one other student, we formed the Structure & Thermal team. I was prim
 <hr>
 
 <details style="margin-top:1rem;">
-  <summary style="display:flex; align-items:center; justify-content:space-between; gap:0.75rem; font-weight:700; font-size:1.15rem; background:#f8f9fa; border:1px solid rgba(0,0,0,.08); border-radius:12px; padding:.5rem .75rem; cursor:pointer; margin-bottom:1rem;">
-    <span>▸ Part 1 - CAD</span>
+  <summary class="gc-toggle">
+    <span><span class="gc-toggle-arrow">▸</span> Part 1 - CAD</span>
     <span style="font-weight:400; font-size:0.9rem; color:#6c757d;">Read more</span>
   </summary>
 <h4>STM requirements</h4>
@@ -258,8 +279,8 @@ With this STM now representative of the flight configuration, we can proceed wit
 </details>
 
 <details style="margin-top:1rem;">
-  <summary style="display:flex; align-items:center; justify-content:space-between; gap:0.75rem; font-weight:700; font-size:1.15rem; background:#f8f9fa; border:1px solid rgba(0,0,0,.08); border-radius:12px; padding:.5rem .75rem; cursor:pointer; margin-bottom:1rem;">
-    <span>▸ Part 2 - mechanical</span>
+  <summary class="gc-toggle">
+    <span><span class="gc-toggle-arrow">▸</span> Part 2 - mechanical</span>
     <span style="font-weight:400; font-size:0.9rem; color:#6c757d;">Read more</span>
   </summary>
 <h3>Project Part 2 — ESUS 3U CubeSat</h3>
