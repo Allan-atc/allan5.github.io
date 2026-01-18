@@ -106,6 +106,8 @@ Along with one other student, we formed the Structure & Thermal team. I was prim
 
 <hr>
 
+<details open style="margin-top:1rem;">
+  <summary>Part 1 — CAD + STM Definition</summary>
 <h4>STM requirements</h4>
 <ul>
   <li><strong>Form factor:</strong> compliant with a 3U envelope (340.5 × 100 × 100 mm) and compatible with P-POD-class interfaces via the ISIS iSiPod deployer.</li>
@@ -252,6 +254,10 @@ With this STM now representative of the flight configuration, we can proceed wit
 
 </div>
 
+</details>
+
+<details open style="margin-top:1rem;">
+  <summary>Part 2 — Mechanical Qualification Tests</summary>
 <h3>Project Part 2 — ESUS 3U CubeSat</h3>
 <div class="gc-part2">
 <h4>STM Mechanical Qualification Campaign and Vibration Test Results</h4>
@@ -450,3 +456,5 @@ I presented these results to CNES and Thales Alenia Space, and the Phase B revie
 </figure>
 
 </div>
+
+</details>
